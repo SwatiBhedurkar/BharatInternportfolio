@@ -1,0 +1,87 @@
+/* Add custom styling to make the portfolio more attractive */
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  flex-wrap: wrap;
+  background-color: skyblue;
+  border: blue;
+  border-width: 5px;
+  border-style: 2px solid black;
+}
+h1{
+  text-decoration-line: underline;
+}
+
+h2 {
+  text-align: center;
+  font-size: 3em;
+  text-decoration-line: underline;
+}
+.skills-list{
+  text-decoration: #333;
+ list-style: none;
+}
+h3 {
+  font-size: 1.6em;
+  color:#333;
+}
+
+header {
+  background-color:burlywood;
+  padding: 20px;
+  text-align: center;
+}
+footer {
+  background-color: burlywood;
+}
+
+h1 {
+  color: #333;
+  font-size: 4em;
+}
+
+.tagline {
+  color: black;
+  font-size: 2em;
+  padding: 7px;
+  margin: 1px;
+}
+
+.bio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.box {
+  background-color: darksalmon;
+  border-radius: 20px;
+  padding: 20px;
+  border-width: 20%;
+  
+}
+
+.box img {
+  max-width: 30%;
+  max-height: 50%;
+  border-radius: 20px;
+
+}
+
+#projects {
+  padding: 20px;
+}
+
+.project {
+  background-color: skyblue;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.project-info a {
+  color: blue;
+  text-decoration: none;
+}
